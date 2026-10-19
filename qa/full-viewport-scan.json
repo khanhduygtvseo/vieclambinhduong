@@ -1,0 +1,12 @@
+{
+  "command": "node qa-browser.mjs",
+  "pages": 27,
+  "widths": [320,375,390,440,768,1366,1440],
+  "visits": 189,
+  "viewportChecks": "passed",
+  "overflows": [],
+  "javascriptErrors": [],
+  "functionalFinding": "Reset after switching to hourly wage did not restore monthly-hours field visibility.",
+  "repair": "Run post-reset state update in the next task, after native form reset has completed.",
+  "followup": "node qa-browser.mjs --focused reruns all functional checks and all article, tool and home routes at seven widths after source changes."
+}

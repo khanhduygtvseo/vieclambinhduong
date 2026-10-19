@@ -1,0 +1,34 @@
+{
+  "visits": 49,
+  "widths": [
+    320,
+    375,
+    390,
+    440,
+    768,
+    1366,
+    1440
+  ],
+  "pages": 7,
+  "functionalChecks": 33,
+  "javascriptErrors": [],
+  "overflows": [],
+  "privatePreview": true,
+  "noSalaryRequests": true,
+  "screens": [
+    "qa/home-320.png",
+    "qa/tool-320.png",
+    "qa/home-375.png",
+    "qa/tool-375.png",
+    "qa/home-390.png",
+    "qa/tool-390.png",
+    "qa/home-440.png",
+    "qa/tool-440.png",
+    "qa/home-768.png",
+    "qa/tool-768.png",
+    "qa/home-1366.png",
+    "qa/tool-1366.png",
+    "qa/home-1440.png",
+    "qa/tool-1440.png"
+  ]
+}

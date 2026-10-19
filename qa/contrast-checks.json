@@ -1,0 +1,72 @@
+[
+  {
+    "role": "Body",
+    "foreground": "#171719",
+    "background": "#ffffff",
+    "ratio": 17.9,
+    "normalTextAA": true
+  },
+  {
+    "role": "Muted text",
+    "foreground": "#57575b",
+    "background": "#ffffff",
+    "ratio": 7.19,
+    "normalTextAA": true
+  },
+  {
+    "role": "Header navigation",
+    "foreground": "#272735",
+    "background": "#f4efe6",
+    "ratio": 12.84,
+    "normalTextAA": true
+  },
+  {
+    "role": "Footer link",
+    "foreground": "#35353c",
+    "background": "#f4efe6",
+    "ratio": 10.62,
+    "normalTextAA": true
+  },
+  {
+    "role": "Wine on white",
+    "foreground": "#821b35",
+    "background": "#ffffff",
+    "ratio": 9.73,
+    "normalTextAA": true
+  },
+  {
+    "role": "White on wine",
+    "foreground": "#ffffff",
+    "background": "#821b35",
+    "ratio": 9.73,
+    "normalTextAA": true
+  },
+  {
+    "role": "Gold on charcoal",
+    "foreground": "#e3b858",
+    "background": "#171719",
+    "ratio": 9.6,
+    "normalTextAA": true
+  },
+  {
+    "role": "Gold on wine",
+    "foreground": "#e3b858",
+    "background": "#821b35",
+    "ratio": 5.22,
+    "normalTextAA": true
+  },
+  {
+    "role": "Hero secondary text",
+    "foreground": "#e3e4eb",
+    "background": "#1f2f6b",
+    "ratio": 9.88,
+    "normalTextAA": true
+  },
+  {
+    "role": "Error text",
+    "foreground": "#a40c28",
+    "background": "#ffffff",
+    "ratio": 7.89,
+    "normalTextAA": true
+  }
+]
