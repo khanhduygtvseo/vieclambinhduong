@@ -471,9 +471,9 @@ a:hover > .more svg, .more:hover svg { transform: translateX(5px); }
 .au-card { display: flex; gap: 26px; align-items: flex-start; background: #fff; border: 1px solid var(--line); border-radius: var(--r); padding: clamp(24px, 3vw, 36px); box-shadow: var(--shadow-s); }
 .au-card h2 { margin-bottom: .1em; }
 .au-role { color: var(--w6); font-weight: 700; margin-bottom: .8em; }
-.avatar { width: 64px; height: 64px; border-radius: 50%; flex: none; display: grid; place-items: center; background: linear-gradient(135deg, var(--gold-l), var(--copper)); color: var(--w9); font-family: var(--f-display); font-weight: 800; font-size: 1.3rem; box-shadow: 0 0 0 5px #fff, 0 0 0 7px var(--gold); }
-.avatar.lg { width: 92px; height: 92px; font-size: 1.9rem; }
-.avatar.xl { width: 116px; height: 116px; font-size: 2.3rem; box-shadow: 0 0 0 6px rgba(255, 255, 255, .14), 0 0 0 8px var(--gold); }
+.avatar { width: 64px; height: 64px; border-radius: 50%; flex: none; object-fit: cover; object-position: 50% 30%; background: var(--sand); box-shadow: 0 0 0 5px #fff, 0 0 0 7px var(--gold); }
+.avatar.lg { width: 92px; height: 92px; }
+.avatar.xl { width: 116px; height: 116px; box-shadow: 0 0 0 6px rgba(255, 255, 255, .14), 0 0 0 8px var(--gold); }
 .au-ways { list-style: none; margin: 0; padding: 0; display: grid; gap: 18px; }
 .au-ways li { display: flex; gap: 14px; align-items: flex-start; }
 .au-ways svg { flex: none; width: 28px; height: 28px; padding: 5px; border-radius: 50%; background: var(--gold); color: var(--w9); margin-top: 2px; }
@@ -534,7 +534,7 @@ a:hover > .more svg, .more:hover svg { transform: translateX(5px); }
 .mag-body h3 { font-size: clamp(1.3rem, 2vw, 1.6rem); }
 .mag-body p { color: var(--muted); }
 .mag-by { display: inline-flex; align-items: center; gap: 12px; font-weight: 700; color: var(--w8); font-size: .92rem; }
-.avatar.sm { width: 34px; height: 34px; font-size: .78rem; box-shadow: 0 0 0 3px #fff, 0 0 0 4px var(--gold); }
+.avatar.sm { width: 34px; height: 34px; box-shadow: 0 0 0 3px #fff, 0 0 0 4px var(--gold); }
 .mag-list { display: grid; gap: 4px; }
 .mag-row { display: grid; grid-template-columns: 168px minmax(0, 1fr); gap: 20px; align-items: center; padding: 14px; border-radius: 18px; position: relative; transition: background .3s, box-shadow .3s, opacity .8s var(--ease), transform .9s var(--ease); }
 .mag-row + .mag-row::before { content: ''; position: absolute; left: 14px; right: 14px; top: -2px; height: 1px; background: var(--line); }
